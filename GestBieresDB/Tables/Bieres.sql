@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Bieres]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+    [Nom] VARCHAR(80) NOT NULL, 
+    [Degre] DECIMAL(4, 2) NOT NULL, 
+    [Origine] VARCHAR(50) NOT NULL
+    CONSTRAINT [UK_Biere_Nom] UNIQUE (Nom) 
+)

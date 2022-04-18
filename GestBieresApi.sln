@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestBieresApi", "GestBieresApi\GestBieresApi.csproj", "{96381EEA-E583-48C5-9B07-BBE6EB9C0BD8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GestBieresDB", "GestBieresDB\GestBieresDB.sqlproj", "{A64389A8-0AF2-41B7-B035-DD3148F6C685}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZToolbox", "ZToolbox\ZToolbox.csproj", "{96B3E115-815A-4911-A738-E2CAF46B185E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestBieresApi_DAL", "GestBieresApi_DAL\GestBieresApi_DAL.csproj", "{F0869788-D937-42C8-9BDE-4DF69FD562B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZzBiereApiTest", "ZzBiereApiTest\ZzBiereApiTest.csproj", "{409B325B-F707-44F4-AD5C-6F5315AD1E8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96381EEA-E583-48C5-9B07-BBE6EB9C0BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96381EEA-E583-48C5-9B07-BBE6EB9C0BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96381EEA-E583-48C5-9B07-BBE6EB9C0BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96381EEA-E583-48C5-9B07-BBE6EB9C0BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64389A8-0AF2-41B7-B035-DD3148F6C685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64389A8-0AF2-41B7-B035-DD3148F6C685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64389A8-0AF2-41B7-B035-DD3148F6C685}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A64389A8-0AF2-41B7-B035-DD3148F6C685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64389A8-0AF2-41B7-B035-DD3148F6C685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64389A8-0AF2-41B7-B035-DD3148F6C685}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{96B3E115-815A-4911-A738-E2CAF46B185E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B3E115-815A-4911-A738-E2CAF46B185E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B3E115-815A-4911-A738-E2CAF46B185E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B3E115-815A-4911-A738-E2CAF46B185E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0869788-D937-42C8-9BDE-4DF69FD562B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0869788-D937-42C8-9BDE-4DF69FD562B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0869788-D937-42C8-9BDE-4DF69FD562B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0869788-D937-42C8-9BDE-4DF69FD562B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409B325B-F707-44F4-AD5C-6F5315AD1E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409B325B-F707-44F4-AD5C-6F5315AD1E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409B325B-F707-44F4-AD5C-6F5315AD1E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409B325B-F707-44F4-AD5C-6F5315AD1E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7AB2857-BB25-4BC1-9463-E14BA90ED26B}
+	EndGlobalSection
+EndGlobal
